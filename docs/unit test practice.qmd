@@ -49,6 +49,5 @@ expect_length(mean_range(df = mtcars), 2)
 
 # test that first value is less than second value
 expect_true(mean_range(mtcars)[1] < mean_range(mtcars)[2])
-
 ```
 
